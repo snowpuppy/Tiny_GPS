@@ -1,0 +1,1071 @@
+Archive member included because of file (symbol)
+
+/home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+                              ./driver/debug_printf.o (printf_format_nofloat)
+/home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+                              /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o) (prints)
+/home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+                              ./driver/debug_printf.o (small_strlen)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./config/freertos_cr_startup_lpc11.o (__main)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+                              ./freertos/src/tasks.o (memcmp)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+                              ./freertos/src/tasks.o (strncpy)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+                              ./freertos/src/queue.o (memcpy)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+                              ./freertos/src/tasks.o (memset)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+                              ./driver/debug_printf.o (__write)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+                              ./driver/debug_printf.o (__aeabi_idivmod)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+                              /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o) (__aeabi_dsub)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+                              /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o) (__aeabi_lmul)
+/usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                              /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+xQueueRegistry      0x50              ./freertos/src/queue.o
+fseek               0x4               ./driver/debug_printf.o
+fclose              0x4               ./driver/debug_printf.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/freertos_main.o
+ .data          0x00000000        0x0 ./src/freertos_main.o
+ .bss           0x00000000        0x0 ./src/freertos_main.o
+ .text          0x00000000        0x0 ./freertos/src/croutine.o
+ .data          0x00000000        0x0 ./freertos/src/croutine.o
+ .bss           0x00000000        0x0 ./freertos/src/croutine.o
+ .bss.pxReadyCoRoutineLists
+                0x00000000       0x14 ./freertos/src/croutine.o
+ .bss.xDelayedCoRoutineList1
+                0x00000000       0x14 ./freertos/src/croutine.o
+ .bss.xDelayedCoRoutineList2
+                0x00000000       0x14 ./freertos/src/croutine.o
+ .bss.pxDelayedCoRoutineList
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .bss.pxOverflowDelayedCoRoutineList
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .bss.xPendingReadyCoRoutineList
+                0x00000000       0x14 ./freertos/src/croutine.o
+ .bss.pxCurrentCoRoutine
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .bss.uxTopCoRoutineReadyPriority
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .bss.xCoRoutineTickCount
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .bss.xLastTickCount
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .bss.xPassedTicks
+                0x00000000        0x4 ./freertos/src/croutine.o
+ .text.xCoRoutineCreate
+                0x00000000       0xd0 ./freertos/src/croutine.o
+ .text.vCoRoutineAddToDelayedList
+                0x00000000       0x84 ./freertos/src/croutine.o
+ .text.prvCheckPendingReadyList
+                0x00000000       0x88 ./freertos/src/croutine.o
+ .text.prvCheckDelayedList
+                0x00000000      0x108 ./freertos/src/croutine.o
+ .text.vCoRoutineSchedule
+                0x00000000       0xac ./freertos/src/croutine.o
+ .text.prvInitialiseCoRoutineLists
+                0x00000000       0x70 ./freertos/src/croutine.o
+ .text.xCoRoutineRemoveFromEventList
+                0x00000000       0x60 ./freertos/src/croutine.o
+ .text          0x00000000        0x0 ./freertos/src/list.o
+ .data          0x00000000        0x0 ./freertos/src/list.o
+ .bss           0x00000000        0x0 ./freertos/src/list.o
+ .text          0x00000000        0x0 ./freertos/src/queue.o
+ .data          0x00000000        0x0 ./freertos/src/queue.o
+ .bss           0x00000000        0x0 ./freertos/src/queue.o
+ .text.xQueueCreate
+                0x00000000       0xb8 ./freertos/src/queue.o
+ .text.xQueueGenericSend
+                0x00000000      0x118 ./freertos/src/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0x84 ./freertos/src/queue.o
+ .text.xQueueGenericReceive
+                0x00000000      0x14c ./freertos/src/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x80 ./freertos/src/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x20 ./freertos/src/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x18 ./freertos/src/queue.o
+ .text.vQueueDelete
+                0x00000000       0x28 ./freertos/src/queue.o
+ .text.prvCopyDataToQueue
+                0x00000000       0xa4 ./freertos/src/queue.o
+ .text.prvCopyDataFromQueue
+                0x00000000       0x50 ./freertos/src/queue.o
+ .text.prvUnlockQueue
+                0x00000000       0x98 ./freertos/src/queue.o
+ .text.prvIsQueueEmpty
+                0x00000000       0x24 ./freertos/src/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x1c ./freertos/src/queue.o
+ .text.prvIsQueueFull
+                0x00000000       0x2c ./freertos/src/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x24 ./freertos/src/queue.o
+ .text.vQueueAddToRegistry
+                0x00000000       0x4c ./freertos/src/queue.o
+ .text.vQueueUnregisterQueue
+                0x00000000       0x44 ./freertos/src/queue.o
+ COMMON         0x00000000       0x50 ./freertos/src/queue.o
+ .text          0x00000000        0x0 ./freertos/src/tasks.o
+ .data          0x00000000        0x0 ./freertos/src/tasks.o
+ .bss           0x00000000        0x0 ./freertos/src/tasks.o
+ .text.vTaskDelete
+                0x00000000       0x98 ./freertos/src/tasks.o
+ .text.vTaskDelayUntil
+                0x00000000       0xd4 ./freertos/src/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x34 ./freertos/src/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000       0xec ./freertos/src/tasks.o
+ .text.vTaskSuspend
+                0x00000000       0x70 ./freertos/src/tasks.o
+ .text.xTaskIsTaskSuspended
+                0x00000000       0x44 ./freertos/src/tasks.o
+ .text.vTaskResume
+                0x00000000       0x94 ./freertos/src/tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0xa4 ./freertos/src/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x1c ./freertos/src/tasks.o
+ .text.xTaskGetTickCount
+                0x00000000       0x24 ./freertos/src/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x14 ./freertos/src/tasks.o
+ .text.vTaskPlaceOnEventList
+                0x00000000       0x9c ./freertos/src/tasks.o
+ .text.xTaskRemoveFromEventList
+                0x00000000       0xb0 ./freertos/src/tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x28 ./freertos/src/tasks.o
+ .text.xTaskCheckForTimeOut
+                0x00000000       0x88 ./freertos/src/tasks.o
+ .text.vTaskMissedYield
+                0x00000000       0x14 ./freertos/src/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x14 ./freertos/src/tasks.o
+ .text.xTaskGetSchedulerState
+                0x00000000       0x38 ./freertos/src/tasks.o
+ .text          0x00000000        0x0 ./freertos/port/memmang/heap_2.o
+ .data          0x00000000        0x0 ./freertos/port/memmang/heap_2.o
+ .bss           0x00000000        0x0 ./freertos/port/memmang/heap_2.o
+ .text.GetMemInUse
+                0x00000000       0x14 ./freertos/port/memmang/heap_2.o
+ .text          0x00000000        0x0 ./freertos/port/lpcxpresso/m0/port.o
+ .data          0x00000000        0x0 ./freertos/port/lpcxpresso/m0/port.o
+ .bss           0x00000000        0x0 ./freertos/port/lpcxpresso/m0/port.o
+ .text.vPortEndScheduler
+                0x00000000        0x8 ./freertos/port/lpcxpresso/m0/port.o
+ .text          0x00000000        0x0 ./driver/can.o
+ .data          0x00000000        0x0 ./driver/can.o
+ .bss           0x00000000        0x0 ./driver/can.o
+ .text          0x00000000        0x0 ./driver/crp.o
+ .data          0x00000000        0x0 ./driver/crp.o
+ .bss           0x00000000        0x0 ./driver/crp.o
+ .text          0x00000000        0x0 ./driver/debug_printf.o
+ .data          0x00000000        0x0 ./driver/debug_printf.o
+ .bss           0x00000000        0x0 ./driver/debug_printf.o
+ .text._debug_printf
+                0x00000000       0x30 ./driver/debug_printf.o
+ .bss.debug_read_buf
+                0x00000000       0x18 ./driver/debug_printf.o
+ .text._debug_getstr
+                0x00000000       0x58 ./driver/debug_printf.o
+ COMMON         0x00000000        0x8 ./driver/debug_printf.o
+ .text          0x00000000        0x0 ./driver/small_gpio.o
+ .data          0x00000000        0x0 ./driver/small_gpio.o
+ .bss           0x00000000        0x0 ./driver/small_gpio.o
+ .rodata.IOCON_LUT
+                0x00000000       0x30 ./driver/small_gpio.o
+ .text          0x00000000        0x0 ./config/freertos_cr_startup_lpc11.o
+ .data          0x00000000        0x0 ./config/freertos_cr_startup_lpc11.o
+ .bss           0x00000000        0x0 ./config/freertos_cr_startup_lpc11.o
+ .text          0x00000000        0x0 ./cmsis/core_cm0.o
+ .data          0x00000000        0x0 ./cmsis/core_cm0.o
+ .bss           0x00000000        0x0 ./cmsis/core_cm0.o
+ .text.__get_PSP
+                0x00000000        0x8 ./cmsis/core_cm0.o
+ .text.__set_PSP
+                0x00000000        0x6 ./cmsis/core_cm0.o
+ .text.__get_MSP
+                0x00000000        0x8 ./cmsis/core_cm0.o
+ .text.__set_MSP
+                0x00000000        0x6 ./cmsis/core_cm0.o
+ .text.__get_PRIMASK
+                0x00000000        0x6 ./cmsis/core_cm0.o
+ .text.__get_CONTROL
+                0x00000000        0x6 ./cmsis/core_cm0.o
+ .text.__set_CONTROL
+                0x00000000        0x6 ./cmsis/core_cm0.o
+ .text.__REV    0x00000000        0x4 ./cmsis/core_cm0.o
+ .text.__REV16  0x00000000        0x4 ./cmsis/core_cm0.o
+ .text.__REVSH  0x00000000        0x4 ./cmsis/core_cm0.o
+ .text          0x00000000        0x0 ./cmsis/system_LPC11xx.o
+ .data          0x00000000        0x0 ./cmsis/system_LPC11xx.o
+ .bss           0x00000000        0x0 ./cmsis/system_LPC11xx.o
+ .text          0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .data          0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .bss           0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text.printf_format_nofloat
+                0x00000000      0x190 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text.func_printf_nofloat
+                0x00000000       0x16 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text.nsprintf
+                0x00000000       0x24 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .rodata.str1.1
+                0x00000000        0x7 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text          0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .data          0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss           0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text.prints   0x00000000       0x66 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text.printi   0x00000000       0xa6 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text.nsprintf_write_init
+                0x00000000       0x1c /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text.nsprintf_write
+                0x00000000       0x30 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss.nsprintf_buffer_index
+                0x00000000        0x4 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss.nsprintf_buffer
+                0x00000000        0x4 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss.nsprintf_buffer_length
+                0x00000000        0x4 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text          0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .data          0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .bss           0x00000000        0x0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_strlen
+                0x00000000       0x12 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_strcmp
+                0x00000000       0x1c /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_stricmp
+                0x00000000       0x34 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_strim
+                0x00000000       0x2a /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.gethex   0x00000000       0x34 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_fmodf
+                0x00000000       0x68 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x8 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000       0x5a /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x32 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x00000000        0x2 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivq31+15
+                0x00000000      0x188 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dmul
+                0x00000000      0x190 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ddiv
+                0x00000000      0x178 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dsub
+                0x00000000      0x1e8 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dadd
+                0x00000000      0x148 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_drsub
+                0x00000000       0x2c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dneg
+                0x00000000       0x10 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2f
+                0x00000000       0x5c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2iz
+                0x00000000       0x4c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2uiz
+                0x00000000       0x38 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2lz
+                0x00000000       0x78 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2ulz
+                0x00000000       0x5c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ui2d
+                0x00000000       0x66 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ul2d
+                0x00000000       0xc0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_i2d
+                0x00000000       0x18 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ui2d
+                0x00000000        0xc /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_l2d
+                0x00000000       0x22 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ul2d
+                0x00000000        0xc /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpeq
+                0x00000000       0x38 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmplt
+                0x00000000       0x5c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpgt
+                0x00000000       0x58 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmple
+                0x00000000       0x60 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpge
+                0x00000000       0x5c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpun
+                0x00000000       0x1c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdcmple
+                0x00000000       0x2e /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdrcmple
+                0x00000000       0x14 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lmul
+                0x00000000       0x2e /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsl
+                0x00000000       0x18 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsr
+                0x00000000       0x18 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lasr
+                0x00000000       0x18 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lcmp
+                0x00000000       0x14 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_ulcmp
+                0x00000000       0x10 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x2c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/freertos_main.o
+LOAD ./freertos/src/croutine.o
+LOAD ./freertos/src/list.o
+LOAD ./freertos/src/queue.o
+LOAD ./freertos/src/tasks.o
+LOAD ./freertos/port/memmang/heap_2.o
+LOAD ./freertos/port/lpcxpresso/m0/port.o
+LOAD ./driver/can.o
+LOAD ./driver/crp.o
+LOAD ./driver/debug_printf.o
+LOAD ./driver/small_gpio.o
+LOAD ./config/freertos_cr_startup_lpc11.o
+LOAD ./cmsis/core_cm0.o
+LOAD ./cmsis/system_LPC11xx.o
+LOAD /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a
+START GROUP
+LOAD /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a
+LOAD /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000     0x18bc
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./config/freertos_cr_startup_lpc11.o
+                0x00000000                g_pfnVectors
+ *(.text.Reset_Handler .text.SystemInit)
+ .text.SystemInit
+                0x000000c0       0x98 ./cmsis/system_LPC11xx.o
+                0x000000c0                SystemInit
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000158      0x1a4 ff
+ *(.crp)
+ .crp           0x000002fc        0x4 ./driver/crp.o
+                0x000002fc                CRP_WORD
+ *(.text*)
+ .text.__WFI    0x00000300        0xc ./src/freertos_main.o
+ .text.vApplicationStackOverflowHook
+                0x0000030c       0x24 ./src/freertos_main.o
+                0x0000030c                vApplicationStackOverflowHook
+ .text.vTaskLEDBlinker1
+                0x00000330       0x28 ./src/freertos_main.o
+                0x00000330                vTaskLEDBlinker1
+ .text.vTaskLEDBlinker2
+                0x00000358       0x34 ./src/freertos_main.o
+                0x00000358                vTaskLEDBlinker2
+ .text.vTaskDebuggerHeartbeat
+                0x0000038c       0x24 ./src/freertos_main.o
+                0x0000038c                vTaskDebuggerHeartbeat
+ .text.SetSegment
+                0x000003b0       0x88 ./src/freertos_main.o
+                0x000003b0                SetSegment
+ .text.Init7Segment
+                0x00000438       0x60 ./src/freertos_main.o
+                0x00000438                Init7Segment
+ .text.vTask7SegmentCounter
+                0x00000498       0x34 ./src/freertos_main.o
+                0x00000498                vTask7SegmentCounter
+ .text.vApplicationIdleHook
+                0x000004cc        0xc ./src/freertos_main.o
+                0x000004cc                vApplicationIdleHook
+ .text.main     0x000004d8      0x110 ./src/freertos_main.o
+                0x000004d8                main
+ .text.vListInitialise
+                0x000005e8       0x3c ./freertos/src/list.o
+                0x000005e8                vListInitialise
+ .text.vListInitialiseItem
+                0x00000624       0x14 ./freertos/src/list.o
+                0x00000624                vListInitialiseItem
+ .text.vListInsertEnd
+                0x00000638       0x4c ./freertos/src/list.o
+                0x00000638                vListInsertEnd
+ .text.vListInsert
+                0x00000684       0x70 ./freertos/src/list.o
+                0x00000684                vListInsert
+ .text.vListRemove
+                0x000006f4       0x4c ./freertos/src/list.o
+                0x000006f4                vListRemove
+ .text.xTaskCreate
+                0x00000740      0x148 ./freertos/src/tasks.o
+                0x00000740                xTaskCreate
+ .text.vTaskDelay
+                0x00000888       0x8c ./freertos/src/tasks.o
+                0x00000888                vTaskDelay
+ .text.vTaskStartScheduler
+                0x00000914       0x54 ./freertos/src/tasks.o
+                0x00000914                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x00000968       0x18 ./freertos/src/tasks.o
+                0x00000968                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x00000980      0x100 ./freertos/src/tasks.o
+                0x00000980                xTaskResumeAll
+ .text.vTaskIncrementTick
+                0x00000a80       0xdc ./freertos/src/tasks.o
+                0x00000a80                vTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x00000b5c       0xf0 ./freertos/src/tasks.o
+                0x00000b5c                vTaskSwitchContext
+ .text.prvIdleTask
+                0x00000c4c       0x24 ./freertos/src/tasks.o
+ .text.prvInitialiseTCBVariables
+                0x00000c70       0x68 ./freertos/src/tasks.o
+ .text.prvInitialiseTaskLists
+                0x00000cd8       0x88 ./freertos/src/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x00000d60       0x80 ./freertos/src/tasks.o
+ .text.prvAllocateTCBAndStack
+                0x00000de0       0x64 ./freertos/src/tasks.o
+ .text.prvDeleteTCB
+                0x00000e44       0x20 ./freertos/src/tasks.o
+ .text.pvPortMalloc
+                0x00000e64      0x158 ./freertos/port/memmang/heap_2.o
+                0x00000e64                pvPortMalloc
+ .text.vPortFree
+                0x00000fbc       0x7c ./freertos/port/memmang/heap_2.o
+                0x00000fbc                vPortFree
+ .text.NVIC_SetPriority
+                0x00001038       0xe0 ./freertos/port/lpcxpresso/m0/port.o
+ .text.SysTick_Config
+                0x00001118       0x4c ./freertos/port/lpcxpresso/m0/port.o
+ .text.pxPortInitialiseStack
+                0x00001164       0x48 ./freertos/port/lpcxpresso/m0/port.o
+                0x00001164                pxPortInitialiseStack
+ .text.vPortSVCHandler
+                0x000011ac       0x24 ./freertos/port/lpcxpresso/m0/port.o
+                0x000011ac                vPortSVCHandler
+ .text.vPortStartFirstTask
+                0x000011d0        0xc ./freertos/port/lpcxpresso/m0/port.o
+                0x000011d0                vPortStartFirstTask
+ .text.xPortStartScheduler
+                0x000011dc       0x40 ./freertos/port/lpcxpresso/m0/port.o
+                0x000011dc                xPortStartScheduler
+ .text.vPortYieldFromISR
+                0x0000121c       0x14 ./freertos/port/lpcxpresso/m0/port.o
+                0x0000121c                vPortYieldFromISR
+ .text.vPortEnterCritical
+                0x00001230       0x1c ./freertos/port/lpcxpresso/m0/port.o
+                0x00001230                vPortEnterCritical
+ .text.vPortExitCritical
+                0x0000124c       0x24 ./freertos/port/lpcxpresso/m0/port.o
+                0x0000124c                vPortExitCritical
+ .text.xPortPendSVHandler
+                0x00001270       0x74 ./freertos/port/lpcxpresso/m0/port.o
+                0x00001270                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x000012e4       0x2c ./freertos/port/lpcxpresso/m0/port.o
+                0x000012e4                xPortSysTickHandler
+ .text._debug_printf_flush
+                0x00001310       0xa8 ./driver/debug_printf.o
+                0x00001310                _debug_printf_flush
+ .text._debug_putchar
+                0x000013b8       0x88 ./driver/debug_printf.o
+                0x000013b8                _debug_putchar
+ .text._debug_puts
+                0x00001440       0x30 ./driver/debug_printf.o
+                0x00001440                _debug_puts
+ .text.ResetISR
+                0x00001470       0x64 ./config/freertos_cr_startup_lpc11.o
+                0x00001470                ResetISR
+ .text.NMI_Handler
+                0x000014d4        0x8 ./config/freertos_cr_startup_lpc11.o
+                0x000014d4                NMI_Handler
+ .text.HardFault_Handler
+                0x000014dc        0x8 ./config/freertos_cr_startup_lpc11.o
+                0x000014dc                HardFault_Handler
+ .text.IntDefaultHandler
+                0x000014e4        0x8 ./config/freertos_cr_startup_lpc11.o
+                0x000014e4                TIMER16_0_IRQHandler
+                0x000014e4                UART_IRQHandler
+                0x000014e4                TIMER32_0_IRQHandler
+                0x000014e4                TIMER32_1_IRQHandler
+                0x000014e4                IntDefaultHandler
+                0x000014e4                PIOINT1_IRQHandler
+                0x000014e4                CAN_IRQHandler
+                0x000014e4                SSP0_IRQHandler
+                0x000014e4                TIMER16_1_IRQHandler
+                0x000014e4                ADC_IRQHandler
+                0x000014e4                SSP1_IRQHandler
+                0x000014e4                PIOINT2_IRQHandler
+                0x000014e4                BOD_IRQHandler
+                0x000014e4                WAKEUP_IRQHandler
+                0x000014e4                PIOINT0_IRQHandler
+                0x000014e4                I2C_IRQHandler
+                0x000014e4                WDT_IRQHandler
+                0x000014e4                PIOINT3_IRQHandler
+ .text.__set_PRIMASK
+                0x000014ec        0x6 ./cmsis/core_cm0.o
+                0x000014ec                __set_PRIMASK
+ *fill*         0x000014f2        0x2 00
+ .text.SystemCoreClockUpdate
+                0x000014f4       0xac ./cmsis/system_LPC11xx.o
+                0x000014f4                SystemCoreClockUpdate
+ .text.__weak_main
+                0x000015a0        0x8 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x000015a0                __main
+                0x000015a0                __weak_main
+ .text.memcmp   0x000015a8       0x40 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+                0x000015a8                memcmp
+ .text.strncpy  0x000015e8       0x58 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+                0x000015e8                strncpy
+ .text.memset   0x00001640        0x8 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+                0x00001640                memset
+ .text.__sys_write
+                0x00001648        0xc /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+                0x00001648                __write
+                0x00001648                __sys_write
+ .text.__aeabi_division_idivmod
+                0x00001654        0x6 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+                0x00001654                __aeabi_idiv
+                0x00001654                __aeabi_idivmod
+ .text.__aeabi_division_uidivmod
+                0x0000165a       0x72 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000165a                __aeabi_uidiv
+                0x0000165a                __aeabi_uidivmod
+ .text.__aeabi_division_idiv0
+                0x000016cc        0x2 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+                0x000016cc                __aeabi_idiv0
+ .text.__aeabi_memset_lowlevel
+                0x000016ce       0x2a /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                0x000016ce                __aeabi_lowlevel_memset
+ *(.rodata*)
+ .rodata        0x000016f8      0x158 ./src/freertos_main.o
+ .rodata.segmentlut
+                0x00001850        0xc ./src/freertos_main.o
+ .rodata        0x0000185c        0x8 ./freertos/src/tasks.o
+ .rodata.ucExpectedStackBytes.2100
+                0x00001864       0x14 ./freertos/src/tasks.o
+ .rodata.heapSTRUCT_SIZE
+                0x00001878        0x2 ./freertos/port/memmang/heap_2.o
+ *fill*         0x0000187a        0x2 00
+ .rodata.CSWTCH.7
+                0x0000187c       0x40 ./cmsis/system_LPC11xx.o
+
+.glue_7         0x000018bc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000018bc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000018bc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000018bc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000018bc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000018bc                __exidx_end = .
+                0x000018bc                _etext = .
+
+.data           0x10000000        0x8 load address 0x000018bc
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.uxCriticalNesting
+                0x10000000        0x4 ./freertos/port/lpcxpresso/m0/port.o
+ .data.SystemCoreClock
+                0x10000004        0x4 ./cmsis/system_LPC11xx.o
+                0x10000004                SystemCoreClock
+                0x10000008                _edata = .
+
+.bss            0x10000008      0x942 load address 0x000018c4
+                0x10000008                _bss = .
+ *(.bss*)
+ .bss.i.1714    0x10000008        0x4 ./src/freertos_main.o
+ .bss.pxCurrentTCB
+                0x1000000c        0x4 ./freertos/src/tasks.o
+                0x1000000c                pxCurrentTCB
+ .bss.pxReadyTasksLists
+                0x10000010       0x64 ./freertos/src/tasks.o
+ .bss.xDelayedTaskList1
+                0x10000074       0x14 ./freertos/src/tasks.o
+ .bss.xDelayedTaskList2
+                0x10000088       0x14 ./freertos/src/tasks.o
+ .bss.pxDelayedTaskList
+                0x1000009c        0x4 ./freertos/src/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x100000a0        0x4 ./freertos/src/tasks.o
+ .bss.xPendingReadyList
+                0x100000a4       0x14 ./freertos/src/tasks.o
+ .bss.xTasksWaitingTermination
+                0x100000b8       0x14 ./freertos/src/tasks.o
+ .bss.uxTasksDeleted
+                0x100000cc        0x4 ./freertos/src/tasks.o
+ .bss.xSuspendedTaskList
+                0x100000d0       0x14 ./freertos/src/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x100000e4        0x4 ./freertos/src/tasks.o
+ .bss.xTickCount
+                0x100000e8        0x4 ./freertos/src/tasks.o
+ .bss.uxTopUsedPriority
+                0x100000ec        0x4 ./freertos/src/tasks.o
+ .bss.uxTopReadyPriority
+                0x100000f0        0x4 ./freertos/src/tasks.o
+ .bss.xSchedulerRunning
+                0x100000f4        0x4 ./freertos/src/tasks.o
+ .bss.uxSchedulerSuspended
+                0x100000f8        0x4 ./freertos/src/tasks.o
+ .bss.uxMissedTicks
+                0x100000fc        0x4 ./freertos/src/tasks.o
+ .bss.xMissedYield
+                0x10000100        0x4 ./freertos/src/tasks.o
+ .bss.xNumOfOverflows
+                0x10000104        0x4 ./freertos/src/tasks.o
+ .bss.uxTaskNumber
+                0x10000108        0x4 ./freertos/src/tasks.o
+ .bss.totalinuse
+                0x1000010c        0x4 ./freertos/port/memmang/heap_2.o
+ .bss.xHeap     0x10000110      0x7d0 ./freertos/port/memmang/heap_2.o
+ .bss.xStart    0x100008e0        0x8 ./freertos/port/memmang/heap_2.o
+ .bss.xEnd      0x100008e8        0x8 ./freertos/port/memmang/heap_2.o
+ .bss.xHeapHasBeenInitialised.1721
+                0x100008f0        0x4 ./freertos/port/memmang/heap_2.o
+ .bss.debug_write_buf
+                0x100008f4       0x54 ./driver/debug_printf.o
+ .bss.debug_buf_read_index
+                0x10000948        0x1 ./driver/debug_printf.o
+ .bss.debug_buf_write_index
+                0x10000949        0x1 ./driver/debug_printf.o
+ *(COMMON)
+                0x1000094a                _ebss = .
+
+.cr_heap        0x1000094a        0x0 load address 0x000018c4
+                0x1000094a                end = .
+                0x1000094a                _pvHeapStart = .
+                0x10002000                _vRamTop = __top_RamLoc8
+                0x10002000                _vStackTop = _vRamTop
+OUTPUT(freertos.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000     0x1131
+ .debug_abbrev  0x00000000       0xfd ./src/freertos_main.o
+ .debug_abbrev  0x000000fd      0x18a ./freertos/src/croutine.o
+ .debug_abbrev  0x00000287       0xba ./freertos/src/list.o
+ .debug_abbrev  0x00000341      0x170 ./freertos/src/queue.o
+ .debug_abbrev  0x000004b1      0x1b9 ./freertos/src/tasks.o
+ .debug_abbrev  0x0000066a      0x14b ./freertos/port/memmang/heap_2.o
+ .debug_abbrev  0x000007b5      0x1b5 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_abbrev  0x0000096a       0x2c ./driver/can.o
+ .debug_abbrev  0x00000996       0x51 ./driver/crp.o
+ .debug_abbrev  0x000009e7      0x120 ./driver/debug_printf.o
+ .debug_abbrev  0x00000b07       0x63 ./driver/small_gpio.o
+ .debug_abbrev  0x00000b6a       0xb4 ./config/freertos_cr_startup_lpc11.o
+ .debug_abbrev  0x00000c1e       0xaf ./cmsis/core_cm0.o
+ .debug_abbrev  0x00000ccd      0x13d ./cmsis/system_LPC11xx.o
+ .debug_abbrev  0x00000e0a      0x15f /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_abbrev  0x00000f69      0x11e /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_abbrev  0x00001087       0xaa /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_info     0x00000000     0x3b21
+ .debug_info    0x00000000      0x25b ./src/freertos_main.o
+ .debug_info    0x0000025b      0x4d9 ./freertos/src/croutine.o
+ .debug_info    0x00000734      0x2ae ./freertos/src/list.o
+ .debug_info    0x000009e2      0x80c ./freertos/src/queue.o
+ .debug_info    0x000011ee      0xc6b ./freertos/src/tasks.o
+ .debug_info    0x00001e59      0x29e ./freertos/port/memmang/heap_2.o
+ .debug_info    0x000020f7      0x567 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_info    0x0000265e       0x70 ./driver/can.o
+ .debug_info    0x000026ce       0x92 ./driver/crp.o
+ .debug_info    0x00002760      0x257 ./driver/debug_printf.o
+ .debug_info    0x000029b7       0xa8 ./driver/small_gpio.o
+ .debug_info    0x00002a5f      0x1aa ./config/freertos_cr_startup_lpc11.o
+ .debug_info    0x00002c09      0x2ae ./cmsis/core_cm0.o
+ .debug_info    0x00002eb7      0x588 ./cmsis/system_LPC11xx.o
+ .debug_info    0x0000343f      0x257 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_info    0x00003696      0x2c0 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_info    0x00003956      0x1cb /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_line     0x00000000     0x54a7
+ .debug_line    0x00000000      0x6c4 ./src/freertos_main.o
+ .debug_line    0x000006c4      0x645 ./freertos/src/croutine.o
+ .debug_line    0x00000d09      0x544 ./freertos/src/list.o
+ .debug_line    0x0000124d      0x746 ./freertos/src/queue.o
+ .debug_line    0x00001993      0x9fa ./freertos/src/tasks.o
+ .debug_line    0x0000238d      0x567 ./freertos/port/memmang/heap_2.o
+ .debug_line    0x000028f4      0x5c3 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_line    0x00002eb7      0x3b5 ./driver/can.o
+ .debug_line    0x0000326c      0x3be ./driver/crp.o
+ .debug_line    0x0000362a      0x4ff ./driver/debug_printf.o
+ .debug_line    0x00003b29      0x3cc ./driver/small_gpio.o
+ .debug_line    0x00003ef5      0x3a8 ./config/freertos_cr_startup_lpc11.o
+ .debug_line    0x0000429d      0x3dc ./cmsis/core_cm0.o
+ .debug_line    0x00004679      0x3ff ./cmsis/system_LPC11xx.o
+ .debug_line    0x00004a78      0x454 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_line    0x00004ecc      0x489 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_line    0x00005355      0x152 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_macinfo  0x00000000    0x57886
+ .debug_macinfo
+                0x00000000     0x7342 ./src/freertos_main.o
+ .debug_macinfo
+                0x00007342     0x6cd8 ./freertos/src/croutine.o
+ .debug_macinfo
+                0x0000e01a     0x6534 ./freertos/src/list.o
+ .debug_macinfo
+                0x0001454e     0x6f26 ./freertos/src/queue.o
+ .debug_macinfo
+                0x0001b474     0x71e0 ./freertos/src/tasks.o
+ .debug_macinfo
+                0x00022654     0x6a0a ./freertos/port/memmang/heap_2.o
+ .debug_macinfo
+                0x0002905e     0x6678 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_macinfo
+                0x0002f6d6     0x51be ./driver/can.o
+ .debug_macinfo
+                0x00034894     0x5328 ./driver/crp.o
+ .debug_macinfo
+                0x00039bbc     0x549a ./driver/debug_printf.o
+ .debug_macinfo
+                0x0003f056     0x57c1 ./driver/small_gpio.o
+ .debug_macinfo
+                0x00044817     0x3295 ./config/freertos_cr_startup_lpc11.o
+ .debug_macinfo
+                0x00047aac     0x3064 ./cmsis/core_cm0.o
+ .debug_macinfo
+                0x0004ab10     0x5301 ./cmsis/system_LPC11xx.o
+ .debug_macinfo
+                0x0004fe11     0x31e5 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_macinfo
+                0x00052ff6     0x31f4 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_macinfo
+                0x000561ea     0x169c /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_loc      0x00000000     0x1f08
+ .debug_loc     0x00000000      0x20c ./src/freertos_main.o
+ .debug_loc     0x0000020c      0x188 ./freertos/src/croutine.o
+ .debug_loc     0x00000394      0x118 ./freertos/src/list.o
+ .debug_loc     0x000004ac      0x3b8 ./freertos/src/queue.o
+ .debug_loc     0x00000864      0x68c ./freertos/src/tasks.o
+ .debug_loc     0x00000ef0       0x9c ./freertos/port/memmang/heap_2.o
+ .debug_loc     0x00000f8c      0x1bc ./freertos/port/lpcxpresso/m0/port.o
+ .debug_loc     0x00001148      0x124 ./driver/debug_printf.o
+ .debug_loc     0x0000126c       0xbc ./config/freertos_cr_startup_lpc11.o
+ .debug_loc     0x00001328      0x112 ./cmsis/core_cm0.o
+ .debug_loc     0x0000143a       0xdc ./cmsis/system_LPC11xx.o
+ .debug_loc     0x00001516      0x39b /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_loc     0x000018b1      0x38c /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_loc     0x00001c3d      0x2cb /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_pubnames
+                0x00000000      0x9e6
+ .debug_pubnames
+                0x00000000       0xd4 ./src/freertos_main.o
+ .debug_pubnames
+                0x000000d4       0x96 ./freertos/src/croutine.o
+ .debug_pubnames
+                0x0000016a       0x71 ./freertos/src/list.o
+ .debug_pubnames
+                0x000001db      0x13c ./freertos/src/queue.o
+ .debug_pubnames
+                0x00000317      0x24d ./freertos/src/tasks.o
+ .debug_pubnames
+                0x00000564       0x41 ./freertos/port/memmang/heap_2.o
+ .debug_pubnames
+                0x000005a5       0xf8 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_pubnames
+                0x0000069d       0x1f ./driver/crp.o
+ .debug_pubnames
+                0x000006bc       0x86 ./driver/debug_printf.o
+ .debug_pubnames
+                0x00000742       0x20 ./driver/small_gpio.o
+ .debug_pubnames
+                0x00000762       0x6c ./config/freertos_cr_startup_lpc11.o
+ .debug_pubnames
+                0x000007ce       0xb4 ./cmsis/core_cm0.o
+ .debug_pubnames
+                0x00000882       0x4f ./cmsis/system_LPC11xx.o
+ .debug_pubnames
+                0x000008d1       0x51 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_pubnames
+                0x00000922       0x53 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_pubnames
+                0x00000975       0x71 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_pubtypes
+                0x00000000      0x5ad
+ .debug_pubtypes
+                0x00000000       0x3b ./src/freertos_main.o
+ .debug_pubtypes
+                0x0000003b       0xcd ./freertos/src/croutine.o
+ .debug_pubtypes
+                0x00000108       0x7a ./freertos/src/list.o
+ .debug_pubtypes
+                0x00000182      0x103 ./freertos/src/queue.o
+ .debug_pubtypes
+                0x00000285       0xe7 ./freertos/src/tasks.o
+ .debug_pubtypes
+                0x0000036c       0x4c ./freertos/port/memmang/heap_2.o
+ .debug_pubtypes
+                0x000003b8       0x72 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_pubtypes
+                0x0000042a       0x12 ./driver/can.o
+ .debug_pubtypes
+                0x0000043c       0x1f ./driver/crp.o
+ .debug_pubtypes
+                0x0000045b       0x38 ./driver/debug_printf.o
+ .debug_pubtypes
+                0x00000493       0x1e ./driver/small_gpio.o
+ .debug_pubtypes
+                0x000004b1       0x12 ./config/freertos_cr_startup_lpc11.o
+ .debug_pubtypes
+                0x000004c3       0x44 ./cmsis/core_cm0.o
+ .debug_pubtypes
+                0x00000507       0x36 ./cmsis/system_LPC11xx.o
+ .debug_pubtypes
+                0x0000053d       0x45 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_pubtypes
+                0x00000582       0x2b /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+
+.debug_aranges  0x00000000      0x510
+ .debug_aranges
+                0x00000000       0x68 ./src/freertos_main.o
+ .debug_aranges
+                0x00000068       0x50 ./freertos/src/croutine.o
+ .debug_aranges
+                0x000000b8       0x40 ./freertos/src/list.o
+ .debug_aranges
+                0x000000f8       0xa0 ./freertos/src/queue.o
+ .debug_aranges
+                0x00000198      0x110 ./freertos/src/tasks.o
+ .debug_aranges
+                0x000002a8       0x30 ./freertos/port/memmang/heap_2.o
+ .debug_aranges
+                0x000002d8       0x78 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_aranges
+                0x00000350       0x40 ./driver/debug_printf.o
+ .debug_aranges
+                0x00000390       0x38 ./config/freertos_cr_startup_lpc11.o
+ .debug_aranges
+                0x000003c8       0x70 ./cmsis/core_cm0.o
+ .debug_aranges
+                0x00000438       0x28 ./cmsis/system_LPC11xx.o
+ .debug_aranges
+                0x00000460       0x30 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_aranges
+                0x00000490       0x38 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_aranges
+                0x000004c8       0x48 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_ranges   0x00000000      0x430
+ .debug_ranges  0x00000000       0x58 ./src/freertos_main.o
+ .debug_ranges  0x00000058       0x40 ./freertos/src/croutine.o
+ .debug_ranges  0x00000098       0x30 ./freertos/src/list.o
+ .debug_ranges  0x000000c8       0x90 ./freertos/src/queue.o
+ .debug_ranges  0x00000158      0x100 ./freertos/src/tasks.o
+ .debug_ranges  0x00000258       0x20 ./freertos/port/memmang/heap_2.o
+ .debug_ranges  0x00000278       0x68 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_ranges  0x000002e0       0x30 ./driver/debug_printf.o
+ .debug_ranges  0x00000310       0x28 ./config/freertos_cr_startup_lpc11.o
+ .debug_ranges  0x00000338       0x60 ./cmsis/core_cm0.o
+ .debug_ranges  0x00000398       0x18 ./cmsis/system_LPC11xx.o
+ .debug_ranges  0x000003b0       0x20 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_ranges  0x000003d0       0x28 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_ranges  0x000003f8       0x38 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_str      0x00000000     0x1a2c
+ .debug_str     0x00000000      0x199 ./src/freertos_main.o
+                                0x1d2 (size before relaxing)
+ .debug_str     0x00000199      0x34b ./freertos/src/croutine.o
+                                0x424 (size before relaxing)
+ .debug_str     0x000004e4       0xaa ./freertos/src/list.o
+                                0x213 (size before relaxing)
+ .debug_str     0x0000058e      0x378 ./freertos/src/queue.o
+                                0x506 (size before relaxing)
+ .debug_str     0x00000906      0x525 ./freertos/src/tasks.o
+                                0x7b1 (size before relaxing)
+ .debug_str     0x00000e2b      0x12b ./freertos/port/memmang/heap_2.o
+                                0x208 (size before relaxing)
+ .debug_str     0x00000f56      0x3b7 ./freertos/port/lpcxpresso/m0/port.o
+                                0x4ba (size before relaxing)
+ .debug_str     0x0000130d       0x10 ./driver/can.o
+                                 0xc9 (size before relaxing)
+ .debug_str     0x0000131d       0x19 ./driver/crp.o
+                                 0xdb (size before relaxing)
+ .debug_str     0x00001336       0xee ./driver/debug_printf.o
+                                0x1bc (size before relaxing)
+ .debug_str     0x00001424       0x21 ./driver/small_gpio.o
+                                 0xe2 (size before relaxing)
+ .debug_str     0x00001445       0x9a ./config/freertos_cr_startup_lpc11.o
+                                0x165 (size before relaxing)
+ .debug_str     0x000014df       0xc5 ./cmsis/core_cm0.o
+                                0x1a0 (size before relaxing)
+ .debug_str     0x000015a4      0x2b6 ./cmsis/system_LPC11xx.o
+                                0x3c7 (size before relaxing)
+ .debug_str     0x0000185a       0xbf /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+                                0x194 (size before relaxing)
+ .debug_str     0x00001919       0xad /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+                                0x1b1 (size before relaxing)
+ .debug_str     0x000019c6       0x66 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+                                 0xe1 (size before relaxing)
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a ./src/freertos_main.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./freertos/src/croutine.o
+ .comment       0x00000000       0x2b ./freertos/src/list.o
+ .comment       0x00000000       0x2b ./freertos/src/queue.o
+ .comment       0x00000000       0x2b ./freertos/src/tasks.o
+ .comment       0x00000000       0x2b ./freertos/port/memmang/heap_2.o
+ .comment       0x00000000       0x2b ./freertos/port/lpcxpresso/m0/port.o
+ .comment       0x00000000       0x2b ./driver/can.o
+ .comment       0x00000000       0x2b ./driver/crp.o
+ .comment       0x00000000       0x2b ./driver/debug_printf.o
+ .comment       0x00000000       0x2b ./driver/small_gpio.o
+ .comment       0x00000000       0x2b ./config/freertos_cr_startup_lpc11.o
+ .comment       0x00000000       0x2b ./cmsis/core_cm0.o
+ .comment       0x00000000       0x2b ./cmsis/system_LPC11xx.o
+ .comment       0x00000000       0x2b /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .comment       0x00000000       0x2b /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .comment       0x00000000       0x2b /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .comment       0x00000000       0x2b /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .comment       0x00000000       0x2b /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+ .comment       0x00000000       0x2b /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+ .comment       0x00000000       0x2b /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x2b /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .comment       0x00000000       0x2b /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/freertos_main.o
+ .ARM.attributes
+                0x00000033       0x33 ./freertos/src/croutine.o
+ .ARM.attributes
+                0x00000066       0x33 ./freertos/src/list.o
+ .ARM.attributes
+                0x00000099       0x33 ./freertos/src/queue.o
+ .ARM.attributes
+                0x000000cc       0x33 ./freertos/src/tasks.o
+ .ARM.attributes
+                0x000000ff       0x33 ./freertos/port/memmang/heap_2.o
+ .ARM.attributes
+                0x00000132       0x33 ./freertos/port/lpcxpresso/m0/port.o
+ .ARM.attributes
+                0x00000165       0x33 ./driver/can.o
+ .ARM.attributes
+                0x00000198       0x33 ./driver/crp.o
+ .ARM.attributes
+                0x000001cb       0x33 ./driver/debug_printf.o
+ .ARM.attributes
+                0x000001fe       0x33 ./driver/small_gpio.o
+ .ARM.attributes
+                0x00000231       0x33 ./config/freertos_cr_startup_lpc11.o
+ .ARM.attributes
+                0x00000264       0x33 ./cmsis/core_cm0.o
+ .ARM.attributes
+                0x00000297       0x33 ./cmsis/system_LPC11xx.o
+ .ARM.attributes
+                0x000002ca       0x33 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .ARM.attributes
+                0x000002fd       0x33 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .ARM.attributes
+                0x00000330       0x33 /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .ARM.attributes
+                0x00000363       0x33 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000396       0x33 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcmp.o)
+ .ARM.attributes
+                0x000003c9       0x33 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strncpy.o)
+ .ARM.attributes
+                0x000003fc       0x33 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x0000042f       0x33 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .ARM.attributes
+                0x00000462       0x23 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .ARM.attributes
+                0x00000485       0x23 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(division.o)
+ .ARM.attributes
+                0x000004a8       0x33 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .ARM.attributes
+                0x000004db       0x23 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .ARM.attributes
+                0x000004fe       0x23 /usr/local/lpcxpresso_4.2.3_255/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xe7c
+ .debug_frame   0x00000000      0x144 ./src/freertos_main.o
+ .debug_frame   0x00000144       0xf0 ./freertos/src/croutine.o
+ .debug_frame   0x00000234       0xb0 ./freertos/src/list.o
+ .debug_frame   0x000002e4      0x230 ./freertos/src/queue.o
+ .debug_frame   0x00000514      0x3dc ./freertos/src/tasks.o
+ .debug_frame   0x000008f0       0x6c ./freertos/port/memmang/heap_2.o
+ .debug_frame   0x0000095c      0x150 ./freertos/port/lpcxpresso/m0/port.o
+ .debug_frame   0x00000aac       0xb0 ./driver/debug_printf.o
+ .debug_frame   0x00000b5c       0x84 ./config/freertos_cr_startup_lpc11.o
+ .debug_frame   0x00000be0       0xc0 ./cmsis/core_cm0.o
+ .debug_frame   0x00000ca0       0x48 ./cmsis/system_LPC11xx.o
+ .debug_frame   0x00000ce8       0x6c /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_frame   0x00000d54       0x7c /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_frame   0x00000dd0       0xac /home/thor/LPCXpresso_user_workspace/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
